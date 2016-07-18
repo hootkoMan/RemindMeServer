@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @Configuration
-@EnableWebMvc //вкл режима веб мвс и рест кнтроллеров
+@EnableWebMvc //вкл режима веб мвс и рест контроллеров
 @ComponentScan("com.remindme.server")
 public class WebConfig extends WebMvcConfigurerAdapter{
 
